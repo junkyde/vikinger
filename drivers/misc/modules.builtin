@@ -1,0 +1,3 @@
+kernel/drivers/misc/qseecom.ko
+kernel/drivers/misc/tzic.ko
+kernel/drivers/misc/tsu6721.ko

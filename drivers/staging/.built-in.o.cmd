@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/staging/built-in.o drivers/staging/staging.o drivers/staging/serial/built-in.o drivers/staging/media/built-in.o drivers/staging/zram/built-in.o drivers/staging/zcache/built-in.o drivers/staging/zsmalloc/built-in.o drivers/staging/android/built-in.o 

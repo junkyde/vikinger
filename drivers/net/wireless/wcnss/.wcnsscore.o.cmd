@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/wcnss/wcnsscore.o := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/net/wireless/wcnss/wcnsscore.o drivers/net/wireless/wcnss/wcnss_wlan.o drivers/net/wireless/wcnss/wcnss_riva.o drivers/net/wireless/wcnss/qcomwlan_secif.o 

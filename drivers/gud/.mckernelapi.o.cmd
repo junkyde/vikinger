@@ -1,0 +1,1 @@
+cmd_drivers/gud/mckernelapi.o := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/gud/mckernelapi.o drivers/gud/mobicore_kernelapi/main.o drivers/gud/mobicore_kernelapi/clientlib.o drivers/gud/mobicore_kernelapi/device.o drivers/gud/mobicore_kernelapi/session.o drivers/gud/mobicore_kernelapi/connection.o 

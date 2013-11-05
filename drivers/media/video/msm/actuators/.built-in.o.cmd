@@ -1,0 +1,1 @@
+cmd_drivers/media/video/msm/actuators/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/media/video/msm/actuators/built-in.o drivers/media/video/msm/actuators/msm_actuator.o drivers/media/video/msm/actuators/hvca_actuator.o 

@@ -1,0 +1,1 @@
+cmd_firmware/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o firmware/built-in.o firmware/tsp_atmel/mxt336s_Serrano.fw.gen.o firmware/coreriver/tc360.fw.gen.o firmware/coreriver/tc360_serrano_eur.fw.gen.o firmware/coreriver/tc360_serrano_usa.fw.gen.o firmware/coreriver/tc360_golden.fw.gen.o 

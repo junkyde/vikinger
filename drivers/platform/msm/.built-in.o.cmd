@@ -1,0 +1,1 @@
+cmd_drivers/platform/msm/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/platform/msm/built-in.o drivers/platform/msm/ssbi.o drivers/platform/msm/sps/built-in.o 
