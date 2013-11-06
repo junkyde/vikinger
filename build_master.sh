@@ -1,7 +1,7 @@
 #!/bin/sh
 export PLATFORM="AOSP"
 export MREV="JB4.3"
-export CURDATE=`date "+%m.%d.%Y"`
+export CURDATE=`date "+%d.%m.%Y"`
 export MUXEDNAMELONG="Vikinger-$MREV-$PLATFORM-$CARRIER-$CURDATE"
 export MUXEDNAMESHRT="Vikinger-$MREV-$PLATFORM-$CARRIER*"
 export KTVER="--$MUXEDNAMELONG--"
