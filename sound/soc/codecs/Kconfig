@@ -463,3 +463,9 @@ config SND_SOC_WCD9304_DRE
 	default n
 	help
 	  If you use DRE for WCD9304 not WC9306 , use this
+
+config SOUND_CONTROL_HAX_GPL
+        tristate "wcd93xx sound control hax"
+        default y
+        help
+         FauxSound WCD93xx chipset sound control hacks
