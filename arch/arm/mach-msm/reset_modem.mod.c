@@ -16,7 +16,7 @@ MODULE_INFO(intree, "Y");
 static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
-	{ 0xe6de869f, "module_layout" },
+	{ 0x13adf1d, "module_layout" },
 	{ 0x9bbee2b0, "misc_register" },
 	{ 0x8f678b07, "__stack_chk_guard" },
 	{ 0xf0fdf6cb, "__stack_chk_fail" },

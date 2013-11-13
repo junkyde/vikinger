@@ -14,7 +14,7 @@
 @	compiled by GNU C version 4.7.3, GMP version 5.0.2, MPFR version 3.1.2, MPC version 1.0.1
 @ GGC heuristics: --param ggc-min-expand=98 --param ggc-min-heapsize=127376
 @ options passed:  -nostdinc
-@ -I /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include
+@ -I /home/vikinger/android/kernel/vikinger/arch/arm/include
 @ -I arch/arm/include/generated -I include -I arch/arm/mach-msm/include
 @ -iprefix /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/../lib/gcc/arm-unknown-linux-gnueabi/4.7.4/
 @ -isysroot /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/../arm-unknown-linux-gnueabi/sysroot
@@ -22,7 +22,7 @@
 @ -D KBUILD_STR(s)=#s -D KBUILD_BASENAME=KBUILD_STR(bounds)
 @ -D KBUILD_MODNAME=KBUILD_STR(bounds)
 @ -isystem /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/../lib/gcc/arm-unknown-linux-gnueabi/4.7.4/include
-@ -include /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/include/linux/kconfig.h
+@ -include /home/vikinger/android/kernel/vikinger/include/linux/kconfig.h
 @ -MD kernel/.bounds.s.d kernel/bounds.c -mlittle-endian -marm
 @ -mabi=aapcs-linux -mno-thumb-interwork -march=armv7-a -mfloat-abi=soft
 @ -mtune=cortex-a9 -mfpu=vfpv3-d16 -mtls-dialect=gnu

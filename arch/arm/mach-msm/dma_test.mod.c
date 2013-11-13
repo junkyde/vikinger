@@ -19,14 +19,14 @@ MODULE_INFO(intree, "Y");
 static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
-	{ 0xe6de869f, "module_layout" },
+	{ 0x13adf1d, "module_layout" },
 	{ 0x5be15cde, "misc_deregister" },
 	{ 0x2e5810c6, "__aeabi_unwind_cpp_pr1" },
 	{ 0x9bbee2b0, "misc_register" },
 	{ 0x76c6f7a2, "mem_section" },
 	{ 0xd53cd7b5, "membank0_size" },
 	{ 0x46ce1a07, "membank1_start" },
-	{ 0x26a14a3e, "arm_dma_ops" },
+	{ 0x74bf2e8c, "arm_dma_ops" },
 	{ 0x12da5bb2, "__kmalloc" },
 	{ 0xdf397353, "msm_dmov_exec_cmd" },
 	{ 0xfa2a45e, "__memzero" },
@@ -34,8 +34,8 @@ __attribute__((section("__versions"))) = {
 	{ 0xa72dab62, "up" },
 	{ 0x292857ba, "down" },
 	{ 0xfbc74f64, "__copy_from_user" },
-	{ 0x82c3d20b, "kmalloc_caches" },
-	{ 0x84db1de, "kmem_cache_alloc_trace" },
+	{ 0xb2c7deee, "kmalloc_caches" },
+	{ 0xa643a822, "kmem_cache_alloc_trace" },
 	{ 0xefd6cf06, "__aeabi_unwind_cpp_pr0" },
 	{ 0x37a0cba, "kfree" },
 	{ 0x27e1a049, "printk" },

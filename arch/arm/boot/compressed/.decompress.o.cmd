@@ -1,4 +1,4 @@
-cmd_arch/arm/boot/compressed/decompress.o := /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/scripts/gcc-wrapper.py /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-gcc -Wp,-MD,arch/arm/boot/compressed/.decompress.o.d  -nostdinc -isystem /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/../lib/gcc/arm-unknown-linux-gnueabi/4.7.4/include -I/home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-dwarf2-cfi-asm -fstack-protector -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -Wno-unused-but-set-variable -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO -fpic -fno-builtin -Iarch/arm/boot/compressed    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(decompress)"  -D"KBUILD_MODNAME=KBUILD_STR(decompress)" -c -o arch/arm/boot/compressed/.tmp_decompress.o arch/arm/boot/compressed/decompress.c
+cmd_arch/arm/boot/compressed/decompress.o := /home/vikinger/android/kernel/vikinger/scripts/gcc-wrapper.py /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-gcc -Wp,-MD,arch/arm/boot/compressed/.decompress.o.d  -nostdinc -isystem /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/../lib/gcc/arm-unknown-linux-gnueabi/4.7.4/include -I/home/vikinger/android/kernel/vikinger/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include /home/vikinger/android/kernel/vikinger/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-dwarf2-cfi-asm -fstack-protector -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -Wno-unused-but-set-variable -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO -fpic -fno-builtin -Iarch/arm/boot/compressed    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(decompress)"  -D"KBUILD_MODNAME=KBUILD_STR(decompress)" -c -o arch/arm/boot/compressed/.tmp_decompress.o arch/arm/boot/compressed/decompress.c
 
 source_arch/arm/boot/compressed/decompress.o := arch/arm/boot/compressed/decompress.c
 
@@ -23,17 +23,17 @@ deps_arch/arm/boot/compressed/decompress.o := \
     $(wildcard include/config/arch/dma/addr/t/64bit.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/types.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
   arch/arm/include/generated/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
   include/linux/stddef.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/posix_types.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/posix_types.h \
   include/asm-generic/posix_types.h \
   include/linux/linkage.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/linkage.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/string.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/linkage.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/string.h \
   arch/arm/boot/compressed/../../../../lib/decompress_unxz.c \
     $(wildcard include/config/x86.h) \
     $(wildcard include/config/ppc.h) \
@@ -63,7 +63,7 @@ deps_arch/arm/boot/compressed/decompress.o := \
   include/linux/sysinfo.h \
   /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/../lib/gcc/arm-unknown-linux-gnueabi/4.7.4/include/stdarg.h \
   include/linux/bitops.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/bitops.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/bitops.h \
     $(wildcard include/config/smp.h) \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
@@ -71,11 +71,11 @@ deps_arch/arm/boot/compressed/decompress.o := \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/irqflags.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/ptrace.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/irqflags.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/hwcap.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/hwcap.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/sched.h \
@@ -84,10 +84,10 @@ deps_arch/arm/boot/compressed/decompress.o := \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/le.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/byteorder.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/swab.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
   include/linux/log2.h \
@@ -100,9 +100,9 @@ deps_arch/arm/boot/compressed/decompress.o := \
     $(wildcard include/config/modules.h) \
     $(wildcard include/config/hotplug.h) \
   include/linux/dynamic_debug.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/div64.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/compiler.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/bug.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/div64.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/compiler.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/debug/bugverbose.h) \
@@ -110,7 +110,7 @@ deps_arch/arm/boot/compressed/decompress.o := \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/unaligned.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/unaligned.h \
   include/linux/unaligned/le_byteshift.h \
   include/linux/unaligned/be_byteshift.h \
   include/linux/unaligned/generic.h \

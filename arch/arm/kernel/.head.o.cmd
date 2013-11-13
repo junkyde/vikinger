@@ -1,4 +1,4 @@
-cmd_arch/arm/kernel/head.o := /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/scripts/gcc-wrapper.py /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-gcc -Wp,-MD,arch/arm/kernel/.head.o.d  -nostdinc -isystem /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/../lib/gcc/arm-unknown-linux-gnueabi/4.7.4/include -I/home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float     -DTEXT_OFFSET=0x00008000   -c -o arch/arm/kernel/head.o arch/arm/kernel/head.S
+cmd_arch/arm/kernel/head.o := /home/vikinger/android/kernel/vikinger/scripts/gcc-wrapper.py /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-gcc -Wp,-MD,arch/arm/kernel/.head.o.d  -nostdinc -isystem /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/../lib/gcc/arm-unknown-linux-gnueabi/4.7.4/include -I/home/vikinger/android/kernel/vikinger/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include /home/vikinger/android/kernel/vikinger/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float     -DTEXT_OFFSET=0x00008000   -c -o arch/arm/kernel/head.o arch/arm/kernel/head.S
 
 source_arch/arm/kernel/head.o := arch/arm/kernel/head.S
 
@@ -22,7 +22,7 @@ deps_arch/arm/kernel/head.o := \
     $(wildcard include/config/emulate/domain/manager/v7.h) \
     $(wildcard include/config/arch/msm/krait.h) \
     $(wildcard include/config/thumb2/kernel.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/unified.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
   include/linux/linkage.h \
   include/linux/compiler.h \
@@ -31,7 +31,7 @@ deps_arch/arm/kernel/head.o := \
     $(wildcard include/config/profile/all/branches.h) \
     $(wildcard include/config/enable/must/check.h) \
     $(wildcard include/config/enable/warn/deprecated.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/linkage.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/linkage.h \
   include/linux/init.h \
     $(wildcard include/config/modules.h) \
     $(wildcard include/config/hotplug.h) \
@@ -41,31 +41,31 @@ deps_arch/arm/kernel/head.o := \
     $(wildcard include/config/arch/dma/addr/t/64bit.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/types.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
   arch/arm/include/generated/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/assembler.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/assembler.h \
     $(wildcard include/config/cpu/feroceon.h) \
     $(wildcard include/config/trace/irqflags.h) \
     $(wildcard include/config/cpu/use/domains.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/ptrace.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/hwcap.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/domain.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/hwcap.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/domain.h \
     $(wildcard include/config/verify/permission/fault.h) \
     $(wildcard include/config/io/36.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/cp15.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/barrier.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/cp15.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/barrier.h \
     $(wildcard include/config/cpu/32v6k.h) \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/arch/has/barriers.h) \
     $(wildcard include/config/arm/dma/mem/bufferable.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/asm-offsets.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/asm-offsets.h \
   include/generated/asm-offsets.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/memory.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/memory.h \
     $(wildcard include/config/need/mach/memory/h.h) \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/page/offset.h) \
@@ -94,15 +94,15 @@ deps_arch/arm/kernel/head.o := \
     $(wildcard include/config/flatmem.h) \
     $(wildcard include/config/discontigmem.h) \
     $(wildcard include/config/sparsemem/vmemmap.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/thread_info.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/fpstate.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/pgtable.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/pgtable.h \
     $(wildcard include/config/highpte.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/proc-fns.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/glue-proc.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/proc-fns.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/glue-proc.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm7tdmi.h) \
     $(wildcard include/config/cpu/arm710.h) \
@@ -126,8 +126,8 @@ deps_arch/arm/kernel/head.o := \
     $(wildcard include/config/cpu/v6.h) \
     $(wildcard include/config/cpu/v6k.h) \
     $(wildcard include/config/cpu/v7.h) \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/glue.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/page.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/glue.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
@@ -138,9 +138,9 @@ deps_arch/arm/kernel/head.o := \
     $(wildcard include/config/memory/hotplug/sparse.h) \
   include/asm-generic/getorder.h \
   include/asm-generic/pgtable-nopud.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/pgtable-hwdef.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/pgtable-2level-hwdef.h \
-  /home/vikinger/android/kernel/android_kernel_samsung_msm8930-common/arch/arm/include/asm/pgtable-2level.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/pgtable-hwdef.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/pgtable-2level-hwdef.h \
+  /home/vikinger/android/kernel/vikinger/arch/arm/include/asm/pgtable-2level.h \
   arch/arm/kernel/head-common.S \
     $(wildcard include/config/cpu/big/endian.h) \
     $(wildcard include/config/of/flattree.h) \

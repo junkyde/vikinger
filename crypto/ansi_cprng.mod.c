@@ -19,22 +19,22 @@ MODULE_INFO(intree, "Y");
 static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
-	{ 0xe6de869f, "module_layout" },
+	{ 0x13adf1d, "module_layout" },
 	{ 0xf15bdffc, "crypto_rng_type" },
 	{ 0x15692c87, "param_ops_int" },
-	{ 0x63cc9de1, "crypto_unregister_alg" },
-	{ 0x3dff3995, "crypto_register_alg" },
+	{ 0xc514d4e2, "crypto_unregister_alg" },
+	{ 0x6aad5ff2, "crypto_register_alg" },
 	{ 0x8f678b07, "__stack_chk_guard" },
 	{ 0xf0fdf6cb, "__stack_chk_fail" },
 	{ 0x71c90087, "memcmp" },
 	{ 0x4059792f, "print_hex_dump" },
-	{ 0xedacaf53, "crypto_alloc_base" },
+	{ 0x773ef93, "crypto_alloc_base" },
 	{ 0xc73dd955, "_raw_spin_unlock_bh" },
 	{ 0x27e1a049, "printk" },
 	{ 0xfa2a45e, "__memzero" },
 	{ 0x3b502f70, "_raw_spin_lock_bh" },
 	{ 0xefd6cf06, "__aeabi_unwind_cpp_pr0" },
-	{ 0x61f7db63, "crypto_destroy_tfm" },
+	{ 0x6a9b891a, "crypto_destroy_tfm" },
 };
 
 static const char __module_depends[]
