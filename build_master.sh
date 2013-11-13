@@ -11,6 +11,7 @@ export INITRAMFS_DEST=$KERNELDIR/kernel/usr/initramfs
 export INITRAMFS_SOURCE=`readlink -f ..`/Ramdisks/$PLATFORM"_"$CARRIER"4.3"
 export CONFIG_$PLATFORM_BUILD=y
 export PACKAGEDIR=$PARENT_DIR/Packages/$PLATFORM
+export MISCDIR=$PARENT_DIR/Packages/MISC
 #Enable FIPS mode
 export USE_SEC_FIPS_MODE=true
 export ARCH=arm
@@ -42,6 +43,9 @@ echo "chmod initramfs dir"
 chmod -R g-w $INITRAMFS_DEST/*
 rm $(find $INITRAMFS_DEST -name EMPTY_DIRECTORY -print)
 rm -rf $(find $INITRAMFS_DEST -name .git -print)
+
+echo "Copy bln-liblights to Package"
+	cp $MISCDIR/lights.msm8960.so $PACKAGEDIR/system/lib/hw
 
 echo "Remove old zImage"
 rm $PACKAGEDIR/zImage

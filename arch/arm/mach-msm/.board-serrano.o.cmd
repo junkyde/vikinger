@@ -2231,6 +2231,7 @@ deps_arch/arm/mach-msm/board-serrano.o := \
   include/linux/yas.h \
   include/linux/yas_cfg.h \
   include/linux/gp2ap020.h \
+  include/linux/nfc/bcm2079x.h \
   include/linux/i2c-gpio.h \
   arch/arm/mach-msm/include/mach/msm8930-gpio.h \
     $(wildcard include/config/mach/crater.h) \
