@@ -1,1 +1,0 @@
-cmd_drivers/video/msm/vidc/vidc_venc.o := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/video/msm/vidc/vidc_venc.o drivers/video/msm/vidc/common/enc/venc.o drivers/video/msm/vidc/common/enc/venc_internal.o 

@@ -1,1 +1,0 @@
-cmd_drivers/char/adsprpc.ko := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL -r  -T /home/vikinger/android/kernel/vikinger/scripts/module-common.lds --build-id  -o drivers/char/adsprpc.ko drivers/char/adsprpc.o drivers/char/adsprpc.mod.o

@@ -1,1 +1,0 @@
-cmd_sound/soc/msm/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o sound/soc/msm/built-in.o sound/soc/msm/qdsp6/built-in.o sound/soc/msm/msm-dai-q6-hdmi.o sound/soc/msm/msm-pcm-voice.o sound/soc/msm/msm-pcm-voip.o sound/soc/msm/snd-soc-qdsp6.o sound/soc/msm/snd-soc-msm8930.o sound/soc/msm/snd-soc-hostless-pcm.o 

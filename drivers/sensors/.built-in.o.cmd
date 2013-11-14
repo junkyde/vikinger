@@ -1,1 +1,0 @@
-cmd_drivers/sensors/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/sensors/built-in.o drivers/sensors/geomagnetic/built-in.o drivers/sensors/optical/built-in.o drivers/sensors/sensors_core.o 

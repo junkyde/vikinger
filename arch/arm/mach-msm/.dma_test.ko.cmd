@@ -1,1 +1,0 @@
-cmd_arch/arm/mach-msm/dma_test.ko := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL -r  -T /home/vikinger/android/kernel/vikinger/scripts/module-common.lds --build-id  -o arch/arm/mach-msm/dma_test.ko arch/arm/mach-msm/dma_test.o arch/arm/mach-msm/dma_test.mod.o

@@ -1,1 +1,0 @@
-cmd_net/ipv4/netfilter/iptable_nat.o := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o net/ipv4/netfilter/iptable_nat.o net/ipv4/netfilter/nf_nat_rule.o net/ipv4/netfilter/nf_nat_standalone.o 

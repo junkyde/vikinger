@@ -1,1 +1,0 @@
-cmd_drivers/crypto/msm/qcedev.ko := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL -r  -T /home/vikinger/android/kernel/vikinger/scripts/module-common.lds --build-id  -o drivers/crypto/msm/qcedev.ko drivers/crypto/msm/qcedev.o drivers/crypto/msm/qcedev.mod.o

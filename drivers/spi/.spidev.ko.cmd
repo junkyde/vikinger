@@ -1,1 +1,0 @@
-cmd_drivers/spi/spidev.ko := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL -r  -T /home/vikinger/android/kernel/vikinger/scripts/module-common.lds --build-id  -o drivers/spi/spidev.ko drivers/spi/spidev.o drivers/spi/spidev.mod.o

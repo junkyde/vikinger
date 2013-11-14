@@ -1,1 +1,0 @@
-cmd_drivers/media/video/msm/jpeg_10/built-in.o :=  rm -f drivers/media/video/msm/jpeg_10/built-in.o; /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ar rcsD drivers/media/video/msm/jpeg_10/built-in.o

@@ -1,1 +1,0 @@
-cmd_drivers/staging/zcache/zcache.o := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/staging/zcache/zcache.o drivers/staging/zcache/zcache-main.o drivers/staging/zcache/tmem.o 

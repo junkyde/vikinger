@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/mpu6050/built-in.o drivers/input/misc/mpu6500/built-in.o drivers/input/misc/pmic8xxx-pwrkey.o drivers/input/misc/uinput.o 

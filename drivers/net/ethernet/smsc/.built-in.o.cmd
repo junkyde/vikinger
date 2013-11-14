@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/smsc/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/net/ethernet/smsc/built-in.o drivers/net/ethernet/smsc/smc91x.o drivers/net/ethernet/smsc/smc911x.o drivers/net/ethernet/smsc/smsc911x.o 

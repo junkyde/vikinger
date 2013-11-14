@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/chelsio/built-in.o :=  rm -f drivers/net/ethernet/chelsio/built-in.o; /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ar rcsD drivers/net/ethernet/chelsio/built-in.o

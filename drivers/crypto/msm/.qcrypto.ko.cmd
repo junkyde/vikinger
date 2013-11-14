@@ -1,1 +1,0 @@
-cmd_drivers/crypto/msm/qcrypto.ko := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL -r  -T /home/vikinger/android/kernel/vikinger/scripts/module-common.lds --build-id  -o drivers/crypto/msm/qcrypto.ko drivers/crypto/msm/qcrypto.o drivers/crypto/msm/qcrypto.mod.o

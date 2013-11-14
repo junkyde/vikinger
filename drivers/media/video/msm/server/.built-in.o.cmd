@@ -1,1 +1,0 @@
-cmd_drivers/media/video/msm/server/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/media/video/msm/server/built-in.o drivers/media/video/msm/server/msm_cam_server.o 

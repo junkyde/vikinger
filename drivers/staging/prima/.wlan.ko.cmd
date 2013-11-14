@@ -1,1 +1,0 @@
-cmd_drivers/staging/prima/wlan.ko := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL -r  -T /home/vikinger/android/kernel/vikinger/scripts/module-common.lds --build-id  -o drivers/staging/prima/wlan.ko drivers/staging/prima/wlan.o drivers/staging/prima/wlan.mod.o

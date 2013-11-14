@@ -1,1 +1,0 @@
-cmd_drivers/gud/mckernelapi.ko := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL -r  -T /home/vikinger/android/kernel/vikinger/scripts/module-common.lds --build-id  -o drivers/gud/mckernelapi.ko drivers/gud/mckernelapi.o drivers/gud/mckernelapi.mod.o

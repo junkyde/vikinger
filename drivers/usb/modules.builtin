@@ -1,4 +1,0 @@
-kernel/drivers/usb/usb-common.ko
-kernel/drivers/usb/gadget/udc-core.ko
-kernel/drivers/usb/gadget/ci13xxx_msm.ko
-kernel/drivers/usb/otg/msm_otg.ko

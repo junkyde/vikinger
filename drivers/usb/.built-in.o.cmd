@@ -1,1 +1,0 @@
-cmd_drivers/usb/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/usb/built-in.o drivers/usb/otg/built-in.o drivers/usb/gadget/built-in.o drivers/usb/usb-common.o 

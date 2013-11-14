@@ -1,1 +1,0 @@
-cmd_arch/arm/boot/compressed/piggy.xzkern := (cat arch/arm/boot/compressed/../Image | sh /home/vikinger/android/kernel/vikinger/scripts/xz_wrap.sh && printf \354\163\340\000) > arch/arm/boot/compressed/piggy.xzkern || (rm -f arch/arm/boot/compressed/piggy.xzkern ; false)

@@ -1,1 +1,0 @@
-cmd_drivers/staging/zsmalloc/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/staging/zsmalloc/built-in.o drivers/staging/zsmalloc/zsmalloc.o 

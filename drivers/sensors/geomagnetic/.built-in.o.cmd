@@ -1,1 +1,0 @@
-cmd_drivers/sensors/geomagnetic/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/sensors/geomagnetic/built-in.o drivers/sensors/geomagnetic/yas_mag_kernel_driver.o 

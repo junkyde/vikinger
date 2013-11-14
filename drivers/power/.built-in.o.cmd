@@ -1,1 +1,0 @@
-cmd_drivers/power/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/power/built-in.o drivers/power/power_supply.o drivers/power/pm8xxx-ccadc.o drivers/power/pm8921-bms.o drivers/power/pm8921-sec-charger.o 

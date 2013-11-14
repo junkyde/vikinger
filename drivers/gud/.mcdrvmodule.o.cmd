@@ -1,1 +1,0 @@
-cmd_drivers/gud/mcdrvmodule.o := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/gud/mcdrvmodule.o drivers/gud/mobicore_driver/logging.o drivers/gud/mobicore_driver/ops.o drivers/gud/mobicore_driver/mem.o drivers/gud/mobicore_driver/api.o drivers/gud/mobicore_driver/main.o 

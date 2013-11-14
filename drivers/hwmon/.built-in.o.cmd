@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/built-in.o :=  /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL    -r -o drivers/hwmon/built-in.o drivers/hwmon/hwmon.o drivers/hwmon/pm8xxx-adc.o drivers/hwmon/pm8xxx-adc-scale.o drivers/hwmon/epm_adc.o 

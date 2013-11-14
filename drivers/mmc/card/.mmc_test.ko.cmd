@@ -1,1 +1,0 @@
-cmd_drivers/mmc/card/mmc_test.ko := /home/vikinger/android/kernel/toolchains/linaro_4.7.4/bin/arm-gnueabi-ld -EL -r  -T /home/vikinger/android/kernel/vikinger/scripts/module-common.lds --build-id  -o drivers/mmc/card/mmc_test.ko drivers/mmc/card/mmc_test.o drivers/mmc/card/mmc_test.mod.o
