@@ -35,8 +35,6 @@
 #include <linux/uaccess.h>
 #include <linux/bln.h>
 
-#include <linux/regulator/consumer.h>
-
 #if defined(CONFIG_MACH_SERRANO)
 #if defined(CONFIG_MACH_SERRANO_SPR) || defined(CONFIG_MACH_SERRANO_USC) \
 	||defined(CONFIG_MACH_SERRANO_VZW) ||defined(CONFIG_MACH_SERRANO_TMO) ||defined(CONFIG_MACH_SERRANO_ATT)
