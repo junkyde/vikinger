@@ -782,7 +782,12 @@ config TIMA_LOG
 	help
 	  This option enables support for dumping TIMA log
 
-<<<<<<< HEAD
+config TIMA_TEST
+	tristate "Tima Test Suite"
+	default n
+	help
+	  This option enables kernel component of tima test suite
+
 config GENERIC_BLN
         bool "Generic BLN support for backlight notification"
         depends on SYSFS && EXPERIMENTAL
@@ -804,12 +809,6 @@ config GENERIC_BLN_USE_WAKELOCK
         default n
         help
                 Say Y here use the wakelock implementation of the bln driver
-
-config TIMA_TEST
-	tristate "Tima Test Suite"
-	default n
-	help
-	  This option enables kernel component of tima test suite
 	  
 source "drivers/misc/c2port/Kconfig"
 source "drivers/misc/eeprom/Kconfig"
